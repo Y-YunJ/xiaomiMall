@@ -58,7 +58,8 @@
         goodsList:Array,
         showingList:Object,
         advImageName:'',
-        idxUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/home/idx'
+        // idxUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/home/idx'
+        idxUrl:'idxGoods',
       }
     },
     computed:{

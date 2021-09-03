@@ -71,8 +71,10 @@
     },
     data(){
       return{
-        navUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/navbarGoods',
-        sliderUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/allGoods',
+        // navUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/navbarGoods',
+        // sliderUrl:'http://106.75.229.98:7300/mock/611e22cd989bbf232e93dd23/xiaomi/allGoods',
+        navUrl:'navGoods',
+        sliderUrl:'sliderGoods',
         titList: Object,
         popList: Array,
         navItemList: [

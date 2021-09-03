@@ -223,20 +223,20 @@
 </template>
 
 <script>
-  import '../assets/css/login.css'
-  import loginTop from '@/views/login-top.vue'
-  import alertPop from '@/views/alert-pop.vue'
-  import dropList from '@/views/drop-list.vue'
-  import loginInputText from '@/views/login-input-text.vue'
-  import loginInputPas from '@/views/login-input-pas.vue'
-  import loginInputArea from '@/views/login-input-area.vue'
-  import loginInputPhone from '@/views/login-input-phone.vue'
-  import loginInputCheck from '@/views/login-input-check.vue'
-  import loginInputSetPas from '@/views/login-input-setPas.vue'
-  import loginInputConfirm from '@/views/login-input-confirm.vue'
+import '../assets/css/login.css'
+import loginTop from '@/views/login-top.vue'
+import alertPop from '@/views/alert-pop.vue'
+import dropList from '@/views/drop-list.vue'
+import loginInputText from '@/views/login-input-text.vue'
+import loginInputPas from '@/views/login-input-pas.vue'
+import loginInputArea from '@/views/login-input-area.vue'
+import loginInputPhone from '@/views/login-input-phone.vue'
+import loginInputCheck from '@/views/login-input-check.vue'
+import loginInputSetPas from '@/views/login-input-setPas.vue'
+import loginInputConfirm from '@/views/login-input-confirm.vue'
 
-  export default {
-    name: 'Login',
+export default {
+  name: 'Login',
     components: {
       loginTop,
       loginInputArea,
@@ -253,18 +253,18 @@
       return {
         switchClass: 'iconfont icon-saoma',
         switchMess: '扫码登录',
-        pasMessShow:false,
-        phoneMessShow:false,
-        codeMessShow:false,
-        setPasMessShow:false,
-        cfPasMessShow:false,
+        pasMessShow: false,
+        phoneMessShow: false,
+        codeMessShow: false,
+        setPasMessShow: false,
+        cfPasMessShow: false,
         barShow: 0,
-        toastShow:false,
+        toastShow: false,
         areaList:{
-          A:[['阿富汗','+93'],['阿尔巴尼亚','+355'],['阿尔及利亚','+213']],
-          B:[['巴哈马','+1'],['巴林','+973'],['孟加拉国','+880']],
-          C:[['柬埔寨','+855'],['喀麦隆','+237'],['加拿大','+1'],['中国','+86']],
-          D:[['丹麦','+45'],['吉布提','+253'],['多米尼克','+1']],
+          A: [['阿富汗','+93'],['阿尔巴尼亚','+355'],['阿尔及利亚','+213']],
+          B: [['巴哈马','+1'],['巴林','+973'],['孟加拉国','+880']],
+          C: [['柬埔寨','+855'],['喀麦隆','+237'],['加拿大','+1'],['中国','+86']],
+          D: [['丹麦','+45'],['吉布提','+253'],['多米尼克','+1']],
         },
         isSign:false,
         checked:false,
